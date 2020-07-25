@@ -13,7 +13,7 @@
             position: absolute;
             width: 30px;
             height: 3px;
-            background-color: #ccc;
+            background-color: $text-color;
             border-radius: 5px;
             transition: transform .2s;
         }
