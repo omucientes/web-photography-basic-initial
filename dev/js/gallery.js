@@ -14,6 +14,7 @@ document.getElementById('gallery') &&
         breakAt:{
             1200:5,
             940:4,
-            520:2
+            520:2,
+            400:1
         }
     })
