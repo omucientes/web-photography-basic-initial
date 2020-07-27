@@ -1,5 +1,6 @@
 extends ../templates/template
 block menu
+    - pageActive = 'contact'
     include ../includes/main-menu
 block title
     h1.title Contact
@@ -17,6 +18,8 @@ block main
                 input(type="submit" value="Send").form__submit
         .contact__map
             iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194348.13980555866!2d-3.819619267056176!3d40.43786976119465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e0!3m2!1ses!2ses!4v1595872939636!5m2!1ses!2ses', frameborder='0', style='border:0;', allowfullscreen='', aria-hidden='false', tabindex='0')
+            a(href="https://www.google.es/maps/place/Madrid/@40.4378698,-3.8196193,11z/data=!3m1!4b1!4m5!3m4!1s0xd422997800a3c81:0xc436dec1618c2269!8m2!3d40.4167754!4d-3.7037902" target="_blank")
+                img(src="assets/map.png", alt="mapa").contact__img-map
         .social
             .social__icon
                 i.fab.fa-twitter-square
